@@ -1,12 +1,12 @@
-package com.example.demo.domain;
+package com.example.demo.student;
 
-public class User {
+public class Student {
 
     private final String name;
     private final String email;
     private final int age;
 
-    public User(String name, String email, int age){
+    public Student(String name, String email, int age){
         this.name = name;
         this.email = email;
         this.age = age;
